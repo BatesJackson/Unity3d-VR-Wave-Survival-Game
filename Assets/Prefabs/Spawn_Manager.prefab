@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1747911298743764}
+  m_IsPrefabParent: 1
+--- !u!1 &1747911298743764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4024600871946808}
+  - component: {fileID: 114492458184866510}
+  m_Layer: 0
+  m_Name: Spawn_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4024600871946808
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1747911298743764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.764678, y: -10.7897415, z: 20.004053}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114492458184866510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1747911298743764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4836dfdf5263feb4ea55e9355e105738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pistolEnemyList: []
+  pistolSpawnRate: 0
+  _pistolEnemyPrefab: {fileID: 1724214003219726, guid: b5a815f42c133aa4db3d11379d2b6d23,
+    type: 2}
+  enemyBulletPool: []
+  bulletAmount: 200
+  _laserPrefab: {fileID: 1599771554769958, guid: d25311401131a9a4e9cf88ab06db14a6,
+    type: 2}
